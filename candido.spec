@@ -1,7 +1,7 @@
 %define name	candido
 %define tarname candido-engine
 %define version	0.9.1
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name: 	 	%{name}
 Summary: 	Candido GTK2 cairo theme
