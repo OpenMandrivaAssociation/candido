@@ -1,0 +1,12 @@
+diff -Naur candido-engine-0.9.1.orig/src/animation.c candido-engine-0.9.1/src/animation.c
+--- candido-engine-0.9.1.orig/src/animation.c	2012-12-05 09:42:54.859574707 -0500
++++ candido-engine-0.9.1/src/animation.c	2012-12-05 09:43:03.217576046 -0500
+@@ -7,7 +7,7 @@
+ #include "animation.h"
+ 
+ #ifdef HAVE_ANIMATION
+-#include <glib/gtimer.h>
++#include <glib.h>
+ 
+ struct _AnimationInfo {
+ 	GTimer *timer;
