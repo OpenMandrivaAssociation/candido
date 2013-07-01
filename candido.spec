@@ -1,7 +1,7 @@
 %define tarname candido-engine
 
 Name: 	 	candido
-Summary: 	Candido GTK2 cairo theme
+Summary: 	GTK2 cairo theme
 Version: 	0.9.1
 Release: 	6
 Source:		%{tarname}-%{version}.tar.bz2
