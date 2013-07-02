@@ -9,7 +9,7 @@ Patch0:		candido-engine-0.9.1-glib-includes.patch
 URL:		http://candido.berlios.de/
 License:	GPL
 Group:		Graphical desktop/GNOME
-BuildRequires:	gtk2-devel
+BuildRequires:	pkgconfig(gtk+-2.0)
 
 %description
 The Candido engine is a cairo-based GTK2 engine for new thems.  
