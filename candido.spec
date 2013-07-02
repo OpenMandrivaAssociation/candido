@@ -3,7 +3,7 @@
 Name: 	 	candido
 Summary: 	GTK2 cairo theme
 Version: 	0.9.1
-Release: 	6
+Release: 	7
 Source:		%{tarname}-%{version}.tar.bz2
 Patch0:		candido-engine-0.9.1-glib-includes.patch
 URL:		http://candido.berlios.de/
@@ -26,7 +26,6 @@ It's very fast and clean.
 %makeinstall
 
 %files
-%defattr(-,root,root)
 %doc AUTHORS COPYING CREDITS ChangeLog NEWS README
 %{_libdir}/gtk-2.0/*/engines/libcandido.so
 
