@@ -6,7 +6,7 @@ Version: 	0.9.1
 Release: 	8
 Source:		%{tarname}-%{version}.tar.bz2
 Patch0:		candido-engine-0.9.1-glib-includes.patch
-URL:		http://candido.berlios.de/
+URL:		https://candido.berlios.de/
 License:	GPL
 Group:		Graphical desktop/GNOME
 BuildRequires:	pkgconfig(gtk+-2.0)
