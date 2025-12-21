@@ -9,6 +9,11 @@ Patch0:		candido-engine-0.9.1-glib-includes.patch
 URL:		https://candido.berlios.de/
 License:	GPL
 Group:		Graphical desktop/GNOME
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 
 %description
